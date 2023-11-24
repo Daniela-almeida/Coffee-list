@@ -216,7 +216,7 @@ main .card {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    margin: 0 auto auto 2em;
+    margin: 0 auto auto 0.8em;
   }
   .grid-container {
     display: block;
