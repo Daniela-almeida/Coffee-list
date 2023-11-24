@@ -208,8 +208,7 @@ main .card {
 }
 @media screen and (max-width: 767px) {
   main .card {
-    min-width: 468px;
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -217,7 +216,7 @@ main .card {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 auto auto 1.8em;
   }
   .grid-container {
     display: block;
@@ -225,9 +224,9 @@ main .card {
     margin-top: 2em;
   }
   .texts-container .subtitle {
-    font-size: 1.4em;
-    margin-top: 3em;
-    width: auto;
+    font-size: 1.2em;
+    margin-top: 4em;
+    width: 79vw;
     text-align: center;
   }
   .texts-container .title {
@@ -236,9 +235,10 @@ main .card {
   }
   .btns .btn-main {
     height: 5vh;
-    width: auto;
-    font-size: 1.2em;
-    padding: 0.5em;
+    width: 39vw;
+    font-size: 0.9em;
+    /* padding: 1em; */
+    /* padding: 0.8em; */
     position: relative;
     top: 1em;
   }
@@ -250,14 +250,15 @@ main .card {
     height: auto;
     position: relative;
     top: 1em;
-    font-size: 1em;
+    font-size: 0.7em;
+    width: 29vw;
   }
   .title-img {
-    font-size: 1.8rem;
+    font-size: 1.3em;
   }
   .price-btn {
     position: relative;
-    left: 13.5em;
+    left: 8.8em;
     bottom: 4.3em;
     height: 3.8vh;
     width: 20vw;
