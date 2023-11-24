@@ -213,9 +213,11 @@ main .card {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    margin: 0 auto;
   }
   .grid-container {
     display: block;
@@ -242,7 +244,7 @@ main .card {
   }
 
   .card-grid-img .imgs {
-    width: 100%;
+    width: 94%;
   }
   .btns .btn-available {
     height: auto;
