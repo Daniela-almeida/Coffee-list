@@ -22,9 +22,6 @@ body {
   width: 100%;
   height: auto;
   background-color: var(--background-color);
-}
-
-section {
   overflow-x: hidden;
 }
 
@@ -214,11 +211,9 @@ main .card {
     min-width: 468px;
     width: 90%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 11em;
     padding: 20px;
     box-sizing: border-box;
   }
